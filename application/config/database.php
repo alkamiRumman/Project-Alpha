@@ -77,7 +77,7 @@
 			'dsn'	=> '',
 			'hostname' => 'localhost',
 			'username' => 'rummanit_root',
-			'password' => 'b,)3qO8E[kkR',
+			'password' => '',
 			'database' => 'rummanit_janelltan',
 			'dbdriver' => 'mysqli',
 			'dbprefix' => '',
