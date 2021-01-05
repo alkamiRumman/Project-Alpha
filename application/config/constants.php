@@ -84,7 +84,11 @@
 	defined('EXIT__AUTO_MIN') OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 	defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-	defined('TABLE_TITLES') OR define('TABLE_TITLES', "titles");
-	defined('TABLE_ITEMS') OR define('TABLE_ITEMS', "items");
-	define('COMPANY', 'Marty Davis Movie Database System');
-	define('SHORTNAME', 'MDMD');
+	defined('TABLE_COMPANY') OR define('TABLE_COMPANY', "company");
+	defined('TABLE_DORMITORY') OR define('TABLE_DORMITORY', "dormitory");
+	defined('TABLE_CONTACTINFO') OR define('TABLE_CONTACTINFO', "contactInfo");
+	defined('TABLE_DORMITORYTYPE') OR define('TABLE_DORMITORYTYPE', "dormitoryType");
+	defined('TABLE_WORKERDETAILS') OR define('TABLE_WORKERDETAILS', "workerDetails");
+	defined('TABLE_USER') OR define('TABLE_USER', "user");
+	define('COMPANY', 'Tenant Management System');
+	define('SHORTNAME', 'TMS');

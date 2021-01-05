@@ -5,6 +5,18 @@
 </body>
 </html>
 <script>
+	$(function () {
+		// this will get the full URL at the address bar
+		var url = window.location.href;
+
+		// passes on every "a" tag
+		$(".sideMenu a").each(function () {
+			// checks if its the same on the address bar
+			if (url == (this.href)) {
+				$(this).closest("li").addClass("active");
+			}
+		});
+	});
 	setTimeout(function () {
 		$('.alert').hide('fast');
 	}, 3000);
@@ -26,9 +38,8 @@
 <script src="<?= base_url('assets/adminLte/dist/js/adminlte.min.js') ?>"></script>
 <script src="<?= base_url('assets/adminLte/dist/js/demo.js') ?>"></script>
 <script src="<?= base_url('assets/adminLte/dist/js/select.min.js') ?>"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>-->
-<script src="<?= base_url('assets/adminLte/plugins/drag-drop-image-uploader/dist/image-uploader.min.js')?>"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js" />
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 </body>
 </html>
